@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img.card-img{
+    max-width: 86px;
+}
+img.wheater-state-img{
+    max-width: 71px;
+}
+main{
+    background-color: #D7D8F0;
+}
+.serach-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serach-bar input{
+    max-width: 973px;
+}

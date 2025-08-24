@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./app.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <main>
+      <div class="serach-bar">
+        <input
+          type="search"
+          name=""
+          id="search"
+          placeholder="Search location here..."
+        />
+        <button><i class="fa-solid fa-location-dot"></i></button>
+      </div>
+      <div class="cards">
+        <div class="card-header">
+          <h1>Today</h1>
+        </div>
+        <div class="card">
+          <img
+            class="card-img"
+            src="./images/1eccb444ce00df08483e83465af19f3fa76c9fa3.png"
+            alt=""
+          />
+          <span>Pazartesi</span>
+          <span>22°</span>
+        </div>
+      </div>
+
+      <div class="Today’s Highlights">
+        
+        <h1>Today’s Highlights</h1>
+        <div class="wheater-state">
+          <div class="card">
+            <div class="card-img">
+            <img
+              class="wheater-state-img"
+              src="./images/2fb46563c2bc733bdbaa4f103592bce62612526f.png"
+              alt=""
+            />
+            <h2>Wind Status</h2>
+            </div>
+            <span>Today wind speed</span>
+            <h1>12</h1>
+            <h5>km</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-imges">
+        <h1>Other Cities</h1>
+        <div class="bacground-boxes">
+            <div class="bg-box">
+                <h3>İstanbul</h3>
+                <span>25° Güneşli</span>
+            </div>
+        </div>
+      </div>
+    </main>
     <script src="/app.js"></script>
-</body>
+  </body>
 </html>
