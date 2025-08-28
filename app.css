@@ -1,22 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-img.card-img{
-    max-width: 86px;
+img {
+  max-width: 86px;
 }
-img.wheater-state-img{
-    max-width: 71px;
+body {
+  display: flex;
+  flex-direction: row-reverse;
 }
-main{
-    background-color: #D7D8F0;
+aside {
+  width: 35%;
+  background-color: #2d2a54;
 }
-.serach-bar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+main {
+  width: 65%;
+  background-color: #d7d8f0;
 }
-.serach-bar input{
-    max-width: 973px;
+.search-bar {
+  position: relative;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 37px;
+  padding: 17px;
+}
+#search-icon {
+  cursor: pointer;
+  position: absolute;
+  left: 7.5px;
+  bottom: 10px;
+  width: 32px;
+  height: 36px;
+}
+#map-icon {
+  cursor: pointer;
+  padding: 8.5px;
+  background-color: #d7d8f0;
+  border-radius: 50px;
+  position: absolute;
+  right: 15px;
+  bottom: 6px;
+}
+input.search {
+  width: 100%;
+  border: none;
+  padding-left: 30px;
+}
+input:focus {
+  padding-left: 30px;
+  outline: none;
 }

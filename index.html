@@ -8,64 +8,124 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     />
-    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&display=swap"
+      rel="stylesheet"
+    />
+    <title>Wheater Forcast</title>
   </head>
   <body>
     <main>
-      <div class="serach-bar">
+      <div class="search-bar">
         <input
+          class="search"
           type="search"
-          name=""
-          id="search"
           placeholder="Search location here..."
         />
-        <button><i class="fa-solid fa-location-dot"></i></button>
+        <img id="search-icon" src="./images/search.svg" alt="search" />
+        <img id="map-icon" src="./images/map-pin.svg" alt="map-pin" />
       </div>
-      <div class="cards">
-        <div class="card-header">
+      <div class="weather-cards-top">
+        <div class="h1-header">
           <h1>Today</h1>
         </div>
-        <div class="card">
-          <img
-            class="card-img"
-            src="./images/1eccb444ce00df08483e83465af19f3fa76c9fa3.png"
-            alt=""
-          />
-          <span>Pazartesi</span>
-          <span>22°</span>
-        </div>
-      </div>
-
-      <div class="Today’s Highlights">
-        
-        <h1>Today’s Highlights</h1>
-        <div class="wheater-state">
-          <div class="card">
-            <div class="card-img">
-            <img
-              class="wheater-state-img"
-              src="./images/2fb46563c2bc733bdbaa4f103592bce62612526f.png"
-              alt=""
-            />
-            <h2>Wind Status</h2>
-            </div>
-            <span>Today wind speed</span>
-            <h1>12</h1>
-            <h5>km</h5>
+        <div class="top-header-cards">
+          <div class="header-card">
+            <img src="./images/pic1.png" alt="weather-icon" />
+            <p>Pazartesi</p>
+            <span>22°</span>
+          </div>
+          <div class="header-card">
+            <img src="./images/pic2.png" alt="weather-icon" />
+            <p>Pazartesi</p>
+            <span>22°</span>
+          </div>
+          <div class="header-card">
+            <img src="./images/pic3.png" alt="weather-icon" />
+            <p>Pazartesi</p>
+            <span>22°</span>
+          </div>
+          <div class="header-card">
+            <img src="./images/pic4.png" alt="weather-icon" />
+            <p>Pazartesi</p>
+            <span>22°</span>
+          </div>
+          <div class="header-card">
+            <img src="./images/pic5.png" alt="weather-icon" />
+            <p>Pazartesi</p>
+            <span>22°</span>
+          </div>
+          <div class="header-card">
+            <img src="./images/pic6.png" alt="weather-icon" />
+            <p>Pazartesi</p>
+            <span>22°</span>
           </div>
         </div>
       </div>
+      <div class="todays-highlights">
+        <div class="h1-header">
+          <h1>Today’s Highlights</h1>
+        </div>
 
-      <div class="footer-imges">
-        <h1>Other Cities</h1>
-        <div class="bacground-boxes">
-            <div class="bg-box">
-                <h3>İstanbul</h3>
-                <span>25° Güneşli</span>
-            </div>
+        <div class="main-status-card">
+          <img src="./images/iconSun.png" alt="iconSun" />
+          <p>Today wind speed</p>
+          <span class="wind-speed">12</span><span class="km">Km/h</span>
+        </div>
+        <div class="main-status-card">
+          <img src="./images/iconRain.png" alt="iconSun" />
+          <p>Today wind speed</p>
+          <span class="wind-speed">12</span><span class="km">Km/h</span>
+        </div>
+        <div class="main-status-card">
+          <img src="./images/iconCluad.png" alt="iconSun" />
+          <p>Today wind speed</p>
+          <span class="wind-speed">12</span><span class="km">Km/h</span>
+        </div>
+        <div class="main-status-card">
+          <img src="./images/iconSun.png" alt="iconSun" />
+          <p>Today wind speed</p>
+          <span class="wind-speed">12</span><span class="km">Km/h</span>
+        </div>
+        <div class="main-status-card">
+          <img src="./images/iconRain.png" alt="iconSun" />
+          <p>Today wind speed</p>
+          <span class="wind-speed">12</span><span class="km">Km/h</span>
+        </div>
+        <div class="main-status-card">
+          <img src="./images/iconCluad.png" alt="iconSun" />
+          <p>Today wind speed</p>
+          <span class="wind-speed">12</span><span class="km">Km/h</span>
         </div>
       </div>
     </main>
+
+    <aside>
+      <h1 class="city">Trabzon</h1>
+      <p>Pazartesi, ÖS 1:10</p>
+      <div class="aside-status">
+        <img src="./images/mainpic.png" alt="mainpic" />
+        <h1 class="aside-temp">22°</h1>
+        <p>28 / 25°</p>
+        <p>Çok bulutlu</p>
+      </div>
+      <ul>
+        <li><img src="./images/wind.svg" alt="wind" />Rüzgar</li>
+        <li><img src="./images/wind.svg" alt="wind" />Nem</li>
+        <li><img src="./images/wind.svg" alt="wind" />Rüzgar</li>
+      </ul>
+
+      <div class="footer-aside">
+        <img src="./images/haze.svg" alt="" />
+        <p>Weather logo</p>
+      </div>
+    </aside>
     <script src="/app.js"></script>
   </body>
 </html>
